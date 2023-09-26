@@ -29,6 +29,6 @@ Here are some interesting facts about me:
 
 - My favorite anime is [Bocchi the Rock!(ぼっち・ざ・ろっく！)](https://anilist.co/anime/130003/Bocchi-the-Rock/)
 
-  ![Desktop View](../assets/img/about/bocchi_anime.png){: width="200" }
+  ![Bocchi the Rock](../assets/img/about/bocchi_anime.png){: width="200" }
 
 Check out my [GitHub](https://github.com/sogood99), [MyAnimeList](https://myanimelist.net/animelist/sogood99), and various other links on the bottom left!

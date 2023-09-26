@@ -64,10 +64,10 @@ If your project doesn't have a pages-deploy under `.github` file, you can manual
 1. Commit your code to the GitHub repo, then visit your GitHub repository's Settings page.
 
 2. Go to the "GitHub Pages" section. Under "Source," select "main branch" and click "Save."
-
-![Desktop View](/assets/img/2023-09-25-first_blog/github_pages.png){: width="700" height="400" }
-
+   ![GitHub Pages](/assets/img/2023-09-25-first_blog/github_pages.png){: width="700" height="400" style="border-radius:5%"}
 3. You should see a GitHub action in tab "Actions", after it finished deploying, the page shoulde be live at `https://yourusername.github.io/`.
+
+   ![GitHub Build and Deploy Actions](/assets/img/2023-09-25-first_blog/github_actions.png){: width="300" height="400" style="border-radius:5%"}
 
 ## NixOS Setup Attempt
 
