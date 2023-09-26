@@ -193,3 +193,11 @@ simply add to `.gdbinit` will do. Then we rerun `gdb` and attach:
 (gdb) target remote :1234
 Remote debugging using :1234
 ```
+
+### coc-clangd
+
+To get the language server coc-clangd to work, we need a `compile_commands.json` file, we can generate this with the python script:
+
+```bash
+python scripts/clang-tools/gen_compile_commands.py
+```
