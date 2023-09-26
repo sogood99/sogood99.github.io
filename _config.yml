@@ -18,7 +18,7 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: My Blog # the main title
+title: Mani's Blog # the main title
 
 tagline: About programming, mathematics, and other stuff # it will display as the sub-title
 
@@ -31,14 +31,17 @@ url: "https://sogood99.github.io"
 github:
   username: sogood99 # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+# username: twitter_username # change to your twitter username
+
+myanimelist:
+  username: sogood99
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: My name
-  email: example@domain.com # change to your email address
+  name: Chris D.
+  email: sogoodbad99@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
@@ -76,7 +79,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/Bocchi_icon.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true

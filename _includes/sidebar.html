@@ -65,6 +65,10 @@
           {%- capture url -%}
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
           {%- endcapture -%}
+        {% when 'myanimelist' %}
+          {%- capture url -%}
+            https://{{ entry.type }}.net/animelist/{{ site[entry.type].username }}
+          {%- endcapture -%}
         {% when 'email' %}
           {% assign email = site.social.email | split: '@' %}
           {%- capture url -%}
