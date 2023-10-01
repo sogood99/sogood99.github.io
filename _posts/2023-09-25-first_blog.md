@@ -72,3 +72,23 @@ If your project doesn't have a pages-deploy under `.github` file, you can manual
 ## NixOS Setup Attempt
 
 Despite using `bundle` and `bundix`, I still wasn't able to get Chirpy to run on NixOS. It seems to have something to do with dependency `http_parser.rb` and the fact that it cannot generate . in `gemset.nix`.
+
+\*\* Update, after some errors with write errors w/ bundle trying to write to nix store:
+
+```bash
+Errno::EROFS: Read-only file system
+```
+
+I basically changed the bundle path to user filespace:
+
+```bash
+bundle config set --local path vendor/bundle
+```
+
+Then I tried running `bundle` and it worked, running `bundle exec jekyll s` however gave the following error:
+
+```bash
+bundler: failed to load command: jekyll (/home/*/bundle_cache/ruby/3.1.0/bin/jekyll)
+```
+
+I tried running `./bundle_cache/ruby/3.1.0/bin/jekyll` directly, and it instead said `/usr/bin/env: ‘ruby’: No such file or directory`, turns out I didn't install `ruby` in `configuration.nix`. Adding that basically fixed everything.
