@@ -188,7 +188,7 @@ public:
 
 The algorithm is as follows: first start with 0, move $A[0]$ to $A[k]$, $A[k]$ to $A[2k]$ until we get back to $0$ again (mod $n$), then we start with $1$, move $A[1]$ to $A[k+1]$, $A[k+1]$ to $A[2k+1]$, until we get back to $1$. Continue doing this until we've accessed $n$ elements.
 
-How do we prove that the above works? If each element is only accessed onc, then by the processing of putting the element to its position $+k$, it must be correct.
+How do we prove that the above works? If each element is only accessed once, then by the processing of putting the element to its position $+k$, it must be correct.
 
 We can prove it with the following lemma:
 
@@ -227,7 +227,7 @@ $$
   \frac{n}{\gcd(n,k)}
 $$
 
-number of elements.
+number of elements. The C++ code is as follows:
 
 ```c++
 class Solution {
