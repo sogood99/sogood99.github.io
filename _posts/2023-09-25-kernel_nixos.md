@@ -103,7 +103,7 @@ This launches a ncurses menu, check the options you would like. We shall check t
 Then compile the kernel,
 
 ```bash
-make ARCH=x86_64 LLVM=1 menuconfig -jN
+make ARCH=x86_64 LLVM=1 -jN
 ```
 
 To compile faster, make can be run with the -jN argument, where N is an integer number of parallel jobs. I usually set it to 8.
