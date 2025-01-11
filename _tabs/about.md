@@ -2,7 +2,6 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-math: true
 ---
 
 Welcome to my blog! I'm Chris D., but I usually go by my online alias, Mani. As an enthusiast of programming, mathematics, and anime, I've created this blog to share my passions and discoveries with you.
